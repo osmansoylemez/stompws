@@ -21,23 +21,17 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/Osman Söylemez/stompws'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/osmenda/stompws'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Osman Söylemez' => 'osman.soylemez@turkiyefinans.com.tr' }
-  s.source           = { :git => 'https://github.com/Osman Söylemez/stompws.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => 'https://github.com/osmenda/stompws.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'stompws/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'stompws' => ['stompws/Assets/*.png']
-  # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-    s.dependency 'Jetfire'
-    s.dependency 'CocoaAsyncSocket', '7.3.4'
+  s.dependency 'Jetfire'
+  s.dependency 'CocoaAsyncSocket', '7.3.4'
 end
