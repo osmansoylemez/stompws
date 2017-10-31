@@ -1,0 +1,6 @@
+framework module stompws {
+  umbrella header "stompws-umbrella.h"
+
+  export *
+  module * { export * }
+}
