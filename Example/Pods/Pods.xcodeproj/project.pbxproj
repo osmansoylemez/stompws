@@ -13,7 +13,10 @@
 		AB66C6ECD331FDB27E6D5C4192D8E722 /* stompws-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E523B102DF7C01ADD4106DBDF1F8B9FE /* stompws-dummy.m */; };
 		AD9FF15321D08CF895AFDC39A0010766 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		B153CCA6F49C5831D3A080A70349AD91 /* Pods-stompws_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D7EB6DCF9E061F34A9115B9F89B45EC /* Pods-stompws_Tests-dummy.m */; };
-		D548C531454974DD78935396FCCF1802 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = DB505637D07FEA9A934A597F272DC874 /* ReplaceMe.m */; };
+		E3160A731FA8911300E12A7C /* StompKit.h in Headers */ = {isa = PBXBuildFile; fileRef = E3160A671FA8911300E12A7C /* StompKit.h */; };
+		E3160A741FA8911300E12A7C /* StompKit.h in Headers */ = {isa = PBXBuildFile; fileRef = E3160A671FA8911300E12A7C /* StompKit.h */; };
+		E3160A751FA8911300E12A7C /* StompKit.m in Sources */ = {isa = PBXBuildFile; fileRef = E3160A681FA8911300E12A7C /* StompKit.m */; };
+		E3160A761FA8911300E12A7C /* StompKit.m in Sources */ = {isa = PBXBuildFile; fileRef = E3160A681FA8911300E12A7C /* StompKit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +34,7 @@
 		2E4D1C426E9E1E63623FEC6D8C85E6F1 /* Pods-stompws_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-stompws_Tests-umbrella.h"; sourceTree = "<group>"; };
 		346919BE2BF94EBBCE660591F36014F7 /* Pods-stompws_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-stompws_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4927D0C0C7D572088926570C2A19145D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		51EDE598D7B2D5FC8AC6FAE1A987E80C /* Pods_stompws_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_stompws_Tests.framework; path = "Pods-stompws_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		51EDE598D7B2D5FC8AC6FAE1A987E80C /* Pods_stompws_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_stompws_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5292EC13CC23BDA3072A31C6AFD0F7AB /* Pods-stompws_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-stompws_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		569D9092486F3C8EF7E227DF7864E4A6 /* Pods-stompws_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-stompws_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		5A7C73F687E419FEC287BBE5983712B5 /* Pods-stompws_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-stompws_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -39,13 +42,14 @@
 		631F09F7D111EF34B991C45EBA17340A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63BDB2AB2E9530A0737E5F01E55BB00B /* stompws-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "stompws-prefix.pch"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		8CC46D41F83191D4C0208DB8046DD45D /* stompws.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = stompws.modulemap; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8CC46D41F83191D4C0208DB8046DD45D /* stompws.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = stompws.modulemap; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		94F92DF0EF717FFD6C933FEFA04107B7 /* stompws-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "stompws-umbrella.h"; sourceTree = "<group>"; };
 		99A4D2F098BA04CE7F9778C25351CDBB /* Pods-stompws_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-stompws_Tests-resources.sh"; sourceTree = "<group>"; };
-		BC302B9F8D42AE6639C5C449867992CA /* Pods-stompws_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-stompws_Tests.modulemap"; sourceTree = "<group>"; };
-		C29C217E1B8A3C063BB2BFF4F65DCDEE /* stompws.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = stompws.framework; path = stompws.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DB505637D07FEA9A934A597F272DC874 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = stompws/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		BC302B9F8D42AE6639C5C449867992CA /* Pods-stompws_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-stompws_Tests.modulemap"; sourceTree = "<group>"; };
+		C29C217E1B8A3C063BB2BFF4F65DCDEE /* stompws.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = stompws.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3160A671FA8911300E12A7C /* StompKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StompKit.h; path = stompws/Classes/StompKit.h; sourceTree = "<group>"; };
+		E3160A681FA8911300E12A7C /* StompKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StompKit.m; path = stompws/Classes/StompKit.m; sourceTree = "<group>"; };
 		E523B102DF7C01ADD4106DBDF1F8B9FE /* stompws-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "stompws-dummy.m"; sourceTree = "<group>"; };
 		F462111E626B85656CAC6175DBAD7DFA /* Pods-stompws_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-stompws_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -103,7 +107,8 @@
 		5558F3B5E32A5E9635725DBAE4BADFDC /* stompws */ = {
 			isa = PBXGroup;
 			children = (
-				DB505637D07FEA9A934A597F272DC874 /* ReplaceMe.m */,
+				E3160A671FA8911300E12A7C /* StompKit.h */,
+				E3160A681FA8911300E12A7C /* StompKit.m */,
 				36E5AC27222CF5305E37446E25A13151 /* Support Files */,
 			);
 			name = stompws;
@@ -171,6 +176,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3160A731FA8911300E12A7C /* StompKit.h in Headers */,
 				6CE9061328CCA8684A02DF04D4B4964B /* Pods-stompws_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -179,6 +185,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3160A741FA8911300E12A7C /* StompKit.h in Headers */,
 				0AF123B0866FD439CFC602D796099381 /* stompws-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3160A751FA8911300E12A7C /* StompKit.m in Sources */,
 				B153CCA6F49C5831D3A080A70349AD91 /* Pods-stompws_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,8 +269,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D548C531454974DD78935396FCCF1802 /* ReplaceMe.m in Sources */,
 				AB66C6ECD331FDB27E6D5C4192D8E722 /* stompws-dummy.m in Sources */,
+				E3160A761FA8911300E12A7C /* StompKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
